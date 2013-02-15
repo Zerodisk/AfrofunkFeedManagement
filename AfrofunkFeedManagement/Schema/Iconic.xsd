@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Generated using Flame-Ware Solutions XML-2-XSD v2.0 at http://www.flame-ware.com/Products/XML-2-XSD/ -->
+<xs:schema id="FeedItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="FeedItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FeedItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateCreated" type="xs:string" minOccurs="0" />
+              <xs:element name="DateModified" type="xs:string" minOccurs="0" />
+              <xs:element name="SKU" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Url" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginalUrl" type="xs:string" minOccurs="0" />
+              <xs:element name="Image" type="xs:string" minOccurs="0" />
+              <xs:element name="Image50" type="xs:string" minOccurs="0" />
+              <xs:element name="Image100" type="xs:string" minOccurs="0" />
+              <xs:element name="Image120" type="xs:string" minOccurs="0" />
+              <xs:element name="Image200" type="xs:string" minOccurs="0" />
+              <xs:element name="Image300" type="xs:string" minOccurs="0" />
+              <xs:element name="Image400" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" type="xs:string" minOccurs="0" />
+              <xs:element name="Brand" type="xs:string" minOccurs="0" />
+              <xs:element name="Colour" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency" type="xs:string" minOccurs="0" />
+              <xs:element name="DeliveryCost" type="xs:string" minOccurs="0" />
+              <xs:element name="DeliveryTime" type="xs:string" minOccurs="0" />
+              <xs:element name="Features" type="xs:string" minOccurs="0" />
+              <xs:element name="Gender" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="StockLevel" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

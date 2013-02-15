@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfrofunkFeedManagement", "AfrofunkFeedManagement\AfrofunkFeedManagement.csproj", "{8D38624F-2CB5-4CEF-B204-A66376A62643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D38624F-2CB5-4CEF-B204-A66376A62643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D38624F-2CB5-4CEF-B204-A66376A62643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D38624F-2CB5-4CEF-B204-A66376A62643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D38624F-2CB5-4CEF-B204-A66376A62643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
