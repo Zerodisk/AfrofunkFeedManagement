@@ -358,10 +358,10 @@ namespace AfrofunkFeedManagement
                 cmd.Parameters.Add(new SqlParameter("@ImageUrl", item.ImageUrl));
                 cmd.Parameters.Add(new SqlParameter("@Price", item.Price));
                 cmd.Parameters.Add(new SqlParameter("@DeliveryCost", RemNull(item.DeliveryCost)));
-                cmd.Parameters.Add(new SqlParameter("@CurrencyCode", item.Currency));
+                cmd.Parameters.Add(new SqlParameter("@CurrencyCode", RemNull(item.Currency)));
                 cmd.Parameters.Add(new SqlParameter("@Brand", item.Brand));
                 cmd.Parameters.Add(new SqlParameter("@Colour", RemNull(item.Colour)));
-                cmd.Parameters.Add(new SqlParameter("@Gender", item.Gender));
+                cmd.Parameters.Add(new SqlParameter("@Gender", RemNull(item.Gender)));
                 cmd.Parameters.Add(new SqlParameter("@Size", RemNull(item.Size)));
 
                 //execute
