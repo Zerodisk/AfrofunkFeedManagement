@@ -349,7 +349,7 @@ namespace AfrofunkFeedManagement
                 //passing parameter
                 cmd.Parameters.Add(new SqlParameter("@BatchId", batchId));
                 cmd.Parameters.Add(new SqlParameter("@MID", MID));
-                cmd.Parameters.Add(new SqlParameter("@SKU", item.SKU));
+                cmd.Parameters.Add(new SqlParameter("@SKU", MID.ToString() + "-" + item.SKU.Trim()));
                 cmd.Parameters.Add(new SqlParameter("@Name", item.Name));
                 cmd.Parameters.Add(new SqlParameter("@Category", item.Category));
                 cmd.Parameters.Add(new SqlParameter("@Description", item.Description));

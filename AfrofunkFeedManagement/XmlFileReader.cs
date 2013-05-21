@@ -53,7 +53,7 @@ namespace AfrofunkFeedManagement
                     rawItem.Url             = item.Url;
                     rawItem.OriginalUrl     = item.OriginalUrl;
                     rawItem.ImageUrl        = item.Image;
-                    rawItem.Price           = Convert.ToDecimal(item.Price);
+                    rawItem.Price           = Convert.ToDecimal(item.Price.Replace("$", ""));
                     rawItem.Brand           = item.Brand;
                     rawItem.Colour          = item.Colour;
                     rawItem.Currency        = item.Currency;
